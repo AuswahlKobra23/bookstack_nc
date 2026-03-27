@@ -34,6 +34,21 @@ Integrates [BookStack](https://www.bookstackapp.com/) into Nextcloud's global se
 
 ## Configuration
 
+### Generating a BookStack API Token
+
+1. Log into BookStack
+2. Go to your **Profile → API Tokens**
+3. Create a new token
+4. Copy the **Token ID** and **Token Secret** into the Nextcloud personal settings
+
+## BookStack Configuration
+
+Add to your BookStack `.env`:
+
+```
+ALLOW_IFRAME_EMBEDDING=true
+```
+
 ### Admin (once)
 
 Go to **Settings → Administration → Additional settings** and enter the BookStack URL:
@@ -50,28 +65,6 @@ Each user goes to **Settings → Personal info** and enters their own API token:
 |---|---|
 | API Token ID | Token ID from your BookStack profile |
 | API Token Secret | Token Secret from your BookStack profile |
-
-### Generating a BookStack API Token
-
-1. Log into BookStack
-2. Go to your **Profile → API Tokens**
-3. Create a new token
-4. Copy the **Token ID** and **Token Secret** into the Nextcloud personal settings
-
-## BookStack Configuration
-
-Add to your BookStack `.env`:
-
-```
-ALLOW_IFRAME_EMBEDDING=true
-```
-
-If you want to embed BookStack in an iframe (HTTPS only):
-```
-ALLOWED_IFRAME_HOSTS="https://your-nextcloud.example.com"
-```
-
-> **Note:** iframe embedding requires both Nextcloud and BookStack to be served over HTTPS due to browser Mixed Content policy and `SameSite=None` cookie requirements.
 
 ## How it works
 

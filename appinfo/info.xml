@@ -2,7 +2,7 @@
 <info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
     <id>bookstack</id>
-    <n>BookStack</n>
+    <name>BookStack</name>
     <summary>Search BookStack knowledge base articles from Nextcloud</summary>
     <description><![CDATA[Integrates BookStack into Nextcloud's global search.
 Search your BookStack knowledge base directly from Nextcloud — results open in a new tab.

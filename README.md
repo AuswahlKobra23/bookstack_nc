@@ -17,9 +17,9 @@ Integrates [BookStack](https://www.bookstackapp.com/) into Nextcloud's global se
 
 ## Installation
 
-1. Copy the `bookstack` folder into your Nextcloud `apps/` directory:
+1. Copy the `bookstack` folder into your Nextcloud `custom_apps/` directory:
    ```bash
-   cp -r bookstack /var/www/nextcloud/apps/
+   cp -r bookstack /var/www/nextcloud/custom_apps/
    ```
 
 2. Enable the app:

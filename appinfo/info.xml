@@ -15,13 +15,13 @@ Features:
     ]]></description>
     <version>1.0.0</version>
     <licence>agpl</licence>
-    <author mail="you@example.com" homepage="https://github.com/yourusername">You</author>
+    <author homepage="https://github.com/AuswahlKobra23/bookstack_nc">AuswahlKobra23</author>
     <namespace>BookStack</namespace>
     <category>organization</category>
-    <bugs>https://github.com/yourusername/nextcloud-bookstack/issues</bugs>
-    <repository>https://github.com/yourusername/nextcloud-bookstack</repository>
+    <bugs>https://github.com/AuswahlKobra23/bookstack_nc/issues</bugs>
+    <repository>https://github.com/AuswahlKobra23/bookstack_nc</repository>
     <dependencies>
-        <nextcloud min-version="27" max-version="33"/>
+        <nextcloud min-version="27"/>
     </dependencies>
     <settings>
         <admin>OCA\BookStack\Settings\AdminSettings</admin>
